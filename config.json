@@ -1,0 +1,81 @@
+{
+  "private_n_local_run": false,
+  "sys_estimated_gas_index": 500,
+  "scs_service_endpoint": "127.0.0.1:50061",
+  "vnode_service_endpoint": "127.0.0.1:50062",
+
+  "scs": {
+    "create_new_use": true,
+    "nodes": 2,
+    "budget_in_moac": 12,
+    "deposit_in_moac": 12
+  },
+
+  "chain_id": 101,
+  "gas_price_gsha": 20,
+  "start_gas": 9000000,
+  "vnode_name": "vnode_0",
+
+  "rpc": {
+    "addr": "127.0.0.1",
+    "port": 20001,
+    "api": "db,eth,net,web3,personal,chain3,admin,mc"
+  },
+
+  "check_interval_ms": 2000,
+  "interval_between_rpc_calls_ms": 4000,
+  "default_password": "1111",
+
+  "vnode_protocol_base": {
+    "name": "name_you_picked_0",
+    "create_new_use": false,
+    "min_bond": 1,
+    "external_url": "35.236.37.203:50062",
+    "addr": "0x2d14f068945025e451cd6c1306c08bbfbc036e3c",
+    "sol_path": "./sol/pangu0.8.4/VnodeProtocolBase.sol",
+    "contract_name": ":VnodeProtocolBase"
+  },
+
+  "subChain_protocol_base": {
+    "name": "name_you_picked_0",
+    "create_new_use": true,
+    "min_bond": 1,
+    "external_scsids": [],
+    "is_ipfs": false,
+    "addr": "",
+    "sol_path": "./sol/pangu0.8.4/SubChainProtocolBase.sol",
+    "contract_name": ":SubChainProtocolBase"
+  },
+
+  "subChain_base": {
+    "name": "name_you_picked_0",
+    "create_new_use": true,
+    "min_bond": 1,
+    "external_url": "35.236.37.203:50062",
+    "addr": "",
+    "sol_path": "./sol/nuwa1.0.2/DeploySubChainBase.sol",
+    "contract_name": ":SubChainBase",
+    "min_balance_in_moac": 10
+  },
+
+  "mac": {
+    "moac_file_name": "moac",
+    "scsserver_file_name": "scsserver",
+    "project_root_dir_path": "./",
+    "moac_dir_path": "./",
+    "temp_dir_path": "./temp/",
+    "scsserver_dir_path": "./",
+    "genesis_dir_path": "./",
+    "vnodes_dir_path": "./temp/vnodes/",
+    "scs_nodes_dir_path": "./temp/scs_nodes/",
+    "current_dir_relative_form": "./",
+    "console_log_file_path": "./console.log",
+    "datadir_path": "./temp/vnodes/vnode_0"
+  },
+
+  "win32": {
+    "moac_file_name": "moac.exe",
+    "scsserver_file_name": "scsserver.exe",
+    "current_dir_relative_form": ""
+  }
+}

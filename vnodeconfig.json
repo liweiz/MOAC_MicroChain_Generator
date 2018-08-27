@@ -1,0 +1,7 @@
+{
+  "SCSService": true,
+  "ShowToPublic": false,
+  "VnodeServiceCfg": "localhost:50062",
+  "VnodeIp": "",
+  "VnodeBeneficialAddress": "0xe1c2e18941ed8c148f2306b955d1883253b1942f"
+}
