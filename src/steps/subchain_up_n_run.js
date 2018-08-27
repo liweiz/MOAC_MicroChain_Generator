@@ -52,9 +52,9 @@ const stepIntroNPause = async (
   }
 
   if (hasNextStep) {
-    if (!isFirstStep) {
-      await enterToContinue();
-    }
+    // if (!isFirstStep) {
+    //   await enterToContinue();
+    // }
     console.log();
     logger.info(stylingConsoleLog(`STEP ${stepNo}, ${content}`));
   }
@@ -297,7 +297,7 @@ const app = async () => {
         params: [
           cfg.subChain_protocol_base.name,
           cfg.subChain_protocol_base.min_bond,
-          cfg.subChain_protocol_base.is_ipfs ? 1 : 0
+          cfg.subChain_protocol_base.protocol_type
         ]
       });
     }

@@ -1,7 +1,6 @@
 {
   "private_n_local_run": false,
   "sys_estimated_gas_index": 500,
-  "scs_service_endpoint": "127.0.0.1:50061",
   "vnode_service_endpoint": "127.0.0.1:50062",
 
   "scs": {
@@ -32,7 +31,7 @@
     "min_bond": 1,
     "external_url": "35.236.37.203:50062",
     "addr": "0x2d14f068945025e451cd6c1306c08bbfbc036e3c",
-    "sol_path": "./sol/pangu0.8.4/VnodeProtocolBase.sol",
+    "sol_path": "./sol/nuwa1.0.2/VnodeProtocolBase.sol",
     "contract_name": ":VnodeProtocolBase"
   },
 
@@ -41,9 +40,9 @@
     "create_new_use": true,
     "min_bond": 1,
     "external_scsids": [],
-    "is_ipfs": false,
+    "protocol_type": 0,
     "addr": "",
-    "sol_path": "./sol/pangu0.8.4/SubChainProtocolBase.sol",
+    "sol_path": "./sol/nuwa1.0.2/SubChainProtocolBase.sol",
     "contract_name": ":SubChainProtocolBase"
   },
 

@@ -107,3 +107,9 @@ project_root/temp/scs_nodes/any_scs_node_name/bin/logs
 ### other
 
 project_root/console.log
+
+# Notes
+
+## sync waiting time
+
+It could take 20+ mins to start to sync. If it takes too long, you might want to stop and restart the process.
